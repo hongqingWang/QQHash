@@ -13,6 +13,7 @@
 		04A5B05F1FEB85E000CC07A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B05E1FEB85E000CC07A2 /* Assets.xcassets */; };
 		04A5B0621FEB85E000CC07A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B0601FEB85E000CC07A2 /* LaunchScreen.storyboard */; };
 		04A5B0651FEB85E000CC07A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B0641FEB85E000CC07A2 /* main.m */; };
+		04A5B06E1FEB892200CC07A2 /* NSString+QQHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B06D1FEB892200CC07A2 /* NSString+QQHash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04A5B0611FEB85E000CC07A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A5B0631FEB85E000CC07A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A5B0641FEB85E000CC07A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A5B06C1FEB892200CC07A2 /* NSString+QQHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QQHash.h"; sourceTree = "<group>"; };
+		04A5B06D1FEB892200CC07A2 /* NSString+QQHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QQHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,21 @@
 				04A5B0561FEB85E000CC07A2 /* AppDelegate.m */,
 				04A5B0581FEB85E000CC07A2 /* ViewController.h */,
 				04A5B0591FEB85E000CC07A2 /* ViewController.m */,
+				04A5B06B1FEB890B00CC07A2 /* QQHash */,
 				04A5B05B1FEB85E000CC07A2 /* Main.storyboard */,
 				04A5B05E1FEB85E000CC07A2 /* Assets.xcassets */,
 				04A5B0601FEB85E000CC07A2 /* LaunchScreen.storyboard */,
 				04A5B0631FEB85E000CC07A2 /* Info.plist */,
 				04A5B0641FEB85E000CC07A2 /* main.m */,
+			);
+			path = QQHash;
+			sourceTree = "<group>";
+		};
+		04A5B06B1FEB890B00CC07A2 /* QQHash */ = {
+			isa = PBXGroup;
+			children = (
+				04A5B06C1FEB892200CC07A2 /* NSString+QQHash.h */,
+				04A5B06D1FEB892200CC07A2 /* NSString+QQHash.m */,
 			);
 			path = QQHash;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A5B05A1FEB85E000CC07A2 /* ViewController.m in Sources */,
+				04A5B06E1FEB892200CC07A2 /* NSString+QQHash.m in Sources */,
 				04A5B0651FEB85E000CC07A2 /* main.m in Sources */,
 				04A5B0571FEB85E000CC07A2 /* AppDelegate.m in Sources */,
 			);
